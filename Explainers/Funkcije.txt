@@ -1,0 +1,6 @@
+Formatiranje datuma - FORMAT(E.BirthDate,'dd.mm.yyyy')
+To string - STR(122) + '.'
+Mijenjanje - REPLACE('VEDAD','D','konj') 
+Substring - SUBSTRING('Vedad Keskin',6+1,6) 
+Trazenje indexa - CHARINDEX(' ','Vedad Keskin')
+DATEPART(QUARTER,POD.DueDate)=1 kvartali

@@ -1,0 +1,17 @@
+POH.Fright - Troškovi prevoza
+P.ListPrice - za cijenu proizvoda
+
+
+SOD.LineTotal  -- cijena sa popustom jednog proizvoda u narudzbi (DETAIL - jedan proizvod)
+SOH.SubTotal   -- cijena sa popustom citave narudbze (HEADER - svi proizovdi)
+SOH.TotalDue   -- cijena sa popustom citave narudbze + troskovi prevoza i taksi (HEADER - svi proizovdi) 
+
+SELECT LEFT('Softverski inzinjering',2)  --REZULTAT: SO
+SELECT RIGHT('Softverski inzinjering',11)  --REZULTAT: INZINJERING
+SELECT CHARINDEX(' ','Sofrverski inzinjering') --REZULTAT: 11
+SELECT PATINDEX('%[0-9]%','FITCC2022') --REZULTAT 6
+SELECT SUBSTRING('Sofrverski inzinjering',11+1,11) --REZULTAT: INZINJERING
+SELECT LEN('Sofrverski inzinjering') --REZULTAT: 22
+SELECT REPLACE('Sofrverski inzinjering','i','XY') --REZULTAT:SofrverskXY XYnzXYnjerXYng
+SELECT STR(122)+ '.' --REZULTAT: 122.
+SELECT REVERSE('Softverski inzinjering') --REZULTAT: gnirejnizni iksrevtfoS
